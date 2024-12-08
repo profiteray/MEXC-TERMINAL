@@ -132,7 +132,7 @@ usdt_balance = get_usdt_balance()
 print(f"Mevcut USDT bakiyeniz: {usdt_balance:.2f} USDT")
 
 while True:
-    komut = input("Komut girin (örnek: btc 10 buy veya wojak sell): ").strip().lower()
+    komut = input("Komut girin (örnek: wojak 10 buy veya wojak sell): ").strip().lower()
     if not komut:
         print("Çıkış yapılıyor.")
         break

@@ -142,14 +142,11 @@ while True:
         symbol = args[0].upper() + "USDT"
 
         if len(args) == 1 or args[1] == "sell":
-            # Tüm bakiyeyi sat
             market_order(symbol, "SELL")
         elif args[1] == "buy":
-            # USDT miktarını al
             usdt_amount = float(args[2].replace("k", "000"))
             market_order(symbol, "BUY", usdt_amount=usdt_amount)
         else:
-            # Miktar belirtilmişse
             amount = float(args[1].replace("k", "000"))
             side = "SELL" if "sell" in komut else "BUY"
             market_order(symbol, side, usdt_amount=amount)

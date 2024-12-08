@@ -1,6 +1,6 @@
 # MEXC Trading Terminal
 
-Bu Python scripti, MEXC borsasında ticaret yapmanızı sağlayacak bir terminal uygulamasıdır. USDT bakiyenizi sorgulayıp, belirli bir miktarda veya tüm bakiyenizi alıp satabilirsiniz.
+Bu Python scripti, MEXC borsasında spot trade yapmanızı sağlayacak bir terminal uygulamasıdır. USDT bakiyenizi sorgulayıp, belirli bir miktarda veya tüm bakiyenizi alıp satabilirsiniz.
 
 ## Özellikler
 - **USDT Bakiyesini Sorgulama**: Mevcut USDT bakiyenizi sorgulayıp terminalde görüntüleyebilirsiniz.

@@ -5,8 +5,8 @@ Bu Python scripti, MEXC borsasında spot trade yapmanızı sağlayacak bir termi
 ## Özellikler
 - **USDT Bakiyesini Sorgulama**: Mevcut USDT bakiyenizi sorgulayıp terminalde görüntüleyebilirsiniz.
 - **Piyasa Emirleri (Market Orders)**: 
-  - `buy` komutuyla belirttiğiniz miktarda ya da USDT karşılığında alım yapabilirsiniz.
-  - `sell` komutuyla tüm bakiyenizi satabilirsiniz.
+  - Örneğin terminale yazacağınız `btc 100 buy` komutuyla uygulamaya girip işlem yapmak istediğiniz pariteyi bulup alış girmek yerine hızlı bir şekilde komutla 100 USD değerinde BİTCOİN aldık ya da belirttiğiniz miktarda USD karşılığında alım yapabilirsiniz.
+  - `btc sell` komutuyla belirttiğiniz semboldeki tüm bakiyenizi satabilirsiniz.
 - **Sembol Doğrulaması**: İşlem yapmadan önce girilen sembolün geçerli olup olmadığı kontrol edilir.
 
 ## Kullanım
